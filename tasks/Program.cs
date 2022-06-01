@@ -18,5 +18,11 @@ while(true)
             var task = new SecondTask();
             task.Execute();
         }
+        
+        else if (command is "third")
+        {
+            var task = new ThirdTask();
+            task.Execute();
+        }
     }
 }
